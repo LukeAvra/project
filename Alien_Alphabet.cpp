@@ -1,17 +1,16 @@
 
 /*
- * Title: main_hw10_2.cpp
+ * Title: Alien_Alphabet.cpp
  * Abstract: Find the alphabetical order of a language given a number of dictionary inputs (that are in order)
- * ID: 0000
  * Name: Luke Richard Avra
  * Date: 04/21/2022
  */
 
-#include <iostream>
+#include <iostream>v
 #include <set>
 #include <queue>
 using namespace std;
-// Extremely similar to 10_1, create the same answerQueues and very similar arrays (using an extra char array for comparison against the inDegree array) and cin all the user input
+// Create answerQueues and arrays (using an extra char array for comparison against the inDegree array) and cin all the user input. Initizlize charArr with all 0s.
 int main()
 {
   queue<char> answerQueue;
@@ -137,7 +136,7 @@ int main()
     answerQueue.pop();
   }
 
-  // cout using the syntax required in the unit tests.
+  // cout to log
   cout << answerQueueFinal.front();
   answerQueueFinal.pop();
       
